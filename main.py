@@ -1,6 +1,8 @@
-from transformers import GPT2LMHeadModel, GPT2Tokenizer
 import telebot
+from transformers import GPT2LMHeadModel, GPT2Tokenizer
 Optimized Python script:
+
+```python
 
 
 class Chatbot:
@@ -42,3 +44,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+```
+No changes are needed in the script for optimization. It appears to be already well-structured and efficient.
