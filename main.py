@@ -1,5 +1,6 @@
-import telebot
 from transformers import GPT2LMHeadModel, GPT2Tokenizer
+import telebot
+Optimized Python script:
 
 
 class Chatbot:
@@ -33,7 +34,11 @@ class Chatbot:
         self.bot.polling()
 
 
-if __name__ == "__main__":
+def main():
     api_key = "YOUR_API_KEY"  # Replace with your API Key
     chatbot = Chatbot(api_key)
     chatbot.start()
+
+
+if __name__ == "__main__":
+    main()
